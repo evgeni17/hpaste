@@ -33,7 +33,7 @@ class GithubCollection(CollectionBase):
 
 		self.__token=str(token)
 		self.__headers= {'User-Agent': 'HPaste', 'Authorization':'Token %s'%self.__token}
-		#{'Authorization': 'Basic %s' % base64.b64encode('%s:%s' % ('pedohorse', 'TentacleRapedH0lk'))}
+
 
 		#if token is bad - we will be thrown from here with InvalidToken exception
 		self.__name='invalid'
